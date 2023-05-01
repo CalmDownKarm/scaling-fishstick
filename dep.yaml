@@ -1,0 +1,21 @@
+name: torch_things
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.7
+  - ca-certificates
+  - openssl
+  - jupyter
+  - ipykernel
+  - certifi
+  - scikit-learn
+  - pandas
+  - yapf
+  - pip
+    - pytorch-lightning
+    - openai
+prefix: /home/karmanya/mambaforge/envs/torch_things
